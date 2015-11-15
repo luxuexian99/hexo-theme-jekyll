@@ -15,7 +15,6 @@ section.selfintro
                 p.content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iure hic, ea deleniti, distinctio laudantium.
             
             ul.contact
-                li 
-                    a(href="") GitHub
-                li
-                    a(href="") Weibo
+                each value, key in theme.selfIntro.social
+                    li
+                        a.social-link(href=value)!= key

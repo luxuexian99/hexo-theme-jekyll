@@ -1,18 +1,6 @@
-# Hexo Theme ： Jekyll
-
-> A hexo theme inspire by jekyllrb.com
+> This project development has cease, welcome to try the new theme [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo).
 
 ![hexo-theme-jekyll-screenshot](https://cloud.githubusercontent.com/assets/9530963/10627194/0ceeb9bc-77e9-11e5-918b-c978d444bbd3.png)
-
-## Never Support 
-
-- Comment System
-- IE10-
-
-## Plan
-
-- Support responsive
-- Support zh-cn/en
 
 ## Install
 
@@ -53,21 +41,7 @@ $ rm source/_posts/hello-world.md && mv themes/jekyll/.post/demo.md source/_post
 $ hexo g && hexo s
 ```
 
-## Update
 
-``` bash
-$ cd themes/jekyll && git pull
-```
-
-## Contribute
-
-- [Issue Tracker](https://github.com/pinggod/jekyll/issues)
-- [Source Code](https://github.com/pinggod/jekyll)
-
-## Support
-
-If you are having issues, please let me know.
-**MIALTO**: pinggodstudio[at]gmail.com
 
 ## License
 

@@ -1,4 +1,4 @@
-> This project development has cease, welcome to try the new theme [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo).
+> This project have ceased to maintenance, welcome to try the new theme [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo).
 
 ![hexo-theme-jekyll-screenshot](https://cloud.githubusercontent.com/assets/9530963/10627194/0ceeb9bc-77e9-11e5-918b-c978d444bbd3.png)
 

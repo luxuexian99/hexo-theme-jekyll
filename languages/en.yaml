@@ -12,3 +12,6 @@ github:
 
 excerpt_link:
     title: MORE
+
+format:
+    date: "dddd, MMMM Do YYYY"

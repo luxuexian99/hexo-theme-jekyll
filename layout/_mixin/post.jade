@@ -1,6 +1,6 @@
 mixin date(date)
     .post-time
-        != full_date(new Date(), 'dddd, MMMM Do YYYY')
+        != full_date(date, __('format.date'))
 
 mixin tag(tags)
     ul.post-tag-list

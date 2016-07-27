@@ -14,3 +14,24 @@ if ba
 
 //- LaTex
 script(src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")
+
+if (page.layout=='post'||page.layout=='page') && page.comments
+    if config.duoshuo_shortname
+        script.
+             var duoshuoQuery = {short_name:"#{config.duoshuo_shortname}"};
+             (function() {
+                 var ds = document.createElement('script');
+                 ds.type = 'text/javascript';ds.async = true;
+                 ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                 ds.charset = 'UTF-8';
+                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+             })();
+            
+    if config.disqus_shortname
+        script.
+            (function() {
+                var d = document, s = d.createElement('script');
+                s.src = '//#{config.disqus_shortname}.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();

@@ -6,9 +6,10 @@ nav
         li.nav-list-item
             a.nav-link(href= theme.menu['blog'] class= is_archive() || is_post() ? 'active' : '')    
                 = __('archive.title')
+        if config.social
+            each value, key in config.social
+                li.nav-list-item
+                    a.nav-link(href= value target="_blank")!= key
         li.nav-list-item
             a.nav-link(href= theme.menu['rss'])
                 = __('rss.title')
-        li.nav-list-item
-            a.nav-link(href= theme.menu['github'] target="_blank")    
-                = __('github.title')

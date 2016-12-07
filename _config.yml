@@ -2,16 +2,7 @@ menu:
     home: /
     blog: /archives/
     rss: /atom.xml
-    github: https://github.com/xxxxx
 
-favicon: /favicon.png
-
-google_analytics: UA-65933410-1
-baidu_analytics: //hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2
-
-selfIntro:
+default:
     title: PING4GOD
-    content: 三年不翅，将以长羽翼；不飞不鸣，将以观民则。
-    social:
-        github: https://github.com/xxxxx
-        weibo: http://weibo.com/xxxxxx
+    description: 三年不翅，将以长羽翼；不飞不鸣，将以观民则。

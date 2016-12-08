@@ -5,5 +5,7 @@ block content
     +homePost()
 
 block extra
-    include _components/project
-    include _components/selfintro
+    if config.jekyll == null || config.jekyll.project == null || config.jekyll.project
+        include _components/project
+    if config.jekyll == null || config.jekyll.selfIntro == null || config.jekyll.selfIntro
+        include _components/selfintro

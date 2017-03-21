@@ -4,6 +4,12 @@ index:
 archive:
     title: 博客
 
+programming:
+    title: 编程
+
+about:
+    title: 关于
+
 rss:
     title: rss
 

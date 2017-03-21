@@ -4,8 +4,15 @@ nav
             a.nav-link(href= theme.menu['home'] class=is_home() ? 'active' : '')
                 = __('index.title')
         li.nav-list-item
-            a.nav-link(href= theme.menu['blog'] class= is_archive() || is_post() ? 'active' : '')    
+            a.nav-link(href= theme.menu['blog'] class= is_archive() || is_post() ? 'active' : '')
                 = __('archive.title')
+        li.nav-list-item
+            a.nav-link(href= theme.menu['programming'] class= is_page() ? 'active' : '')
+                = __('programming.title')
+        li.nav-list-item
+            a.nav-link(href= theme.menu['about'] class= is_page() ? 'active' : '')
+                = __('about.title')
+
         if config.social
             each value, key in config.social
                 li.nav-list-item

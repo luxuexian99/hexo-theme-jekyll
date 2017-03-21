@@ -4,6 +4,12 @@ index:
 archive:
     title: Blog
 
+programming:
+    title: Programming
+
+about:
+    title: About
+
 rss:
     title: rss
 

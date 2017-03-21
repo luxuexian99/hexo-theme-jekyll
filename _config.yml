@@ -1,7 +1,10 @@
 menu:
     home: /
-    blog: /archives/
+    blog: /_archives/
+    programming: /programming
+    about: /about
     rss: /atom.xml
+
 
 default:
     title: PING4GOD

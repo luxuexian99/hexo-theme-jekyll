@@ -7,10 +7,10 @@ nav
             a.nav-link(href= theme.menu['blog'] class= is_archive() || is_post() ? 'active' : '')
                 = __('archive.title')
         li.nav-list-item
-            a.nav-link(href= theme.menu['programming'] class= is_page() ? 'active' : '')
-                = __('programming.title')
+            a.nav-link(href= theme.menu['java'] class= is_page() ? 'active' : '')
+                = __('java.title')
         li.nav-list-item
-            a.nav-link(href= theme.menu['about'] class= is_page() ? 'active' : '')
+            a.nav-link(href= theme.menu['about'] class= is_post() ? 'active' : '')
                 = __('about.title')
 
         if config.social

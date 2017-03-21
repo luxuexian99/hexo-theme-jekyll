@@ -1,7 +1,7 @@
 menu:
     home: /
     blog: /_archives/
-    programming: /programming
+    java: /java
     about: /about
     rss: /atom.xml
 

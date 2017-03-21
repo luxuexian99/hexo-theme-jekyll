@@ -1,6 +1,6 @@
 menu:
     home: /
-    blog: /_archives/
+    blog: /archives/
     java: /java
     about: /about
     rss: /atom.xml

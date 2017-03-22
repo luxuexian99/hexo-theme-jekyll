@@ -1,7 +1,10 @@
+
+favicon: /assets/img/favicon.png
+
 menu:
     home: /
     blog: /archives/
-    java: /java
+    java: /categories/java
     about: /about
     rss: /atom.xml
 

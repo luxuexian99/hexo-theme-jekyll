@@ -7,16 +7,16 @@ nav
             a.nav-link(href= theme.menu['blog'] class= is_archive() || is_post() ? 'active' : '')
                 = __('archive.title')
         li.nav-list-item
-            a.nav-link(href= theme.menu['java'] class= is_page() ? 'active' : '')
+            a.nav-link(href= theme.menu['java'] class= is_category() ? 'active' : '')
                 = __('java.title')
         li.nav-list-item
-            a.nav-link(href= theme.menu['about'] class= is_post() ? 'active' : '')
+            a.nav-link(href= theme.menu['about'] class= is_current('about', false) ? 'active' : '')
                 = __('about.title')
 
-        if config.social
-            each value, key in config.social
-                li.nav-list-item
-                    a.nav-link(href= value target="_blank")!= key
+        //if config.social
+        //    each value, key in config.social
+        //        li.nav-list-item
+        //            a.nav-link(href= value target="_blank")!= key
         li.nav-list-item
             a.nav-link(href= theme.menu['rss'])
                 = __('rss.title')

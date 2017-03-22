@@ -24,6 +24,7 @@
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-preset-es2015": "^6.18.0",
+    "hexo-renderer-jade": "^0.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-sass": "^2.0.4",

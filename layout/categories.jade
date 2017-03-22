@@ -5,9 +5,7 @@ prepend site_title
 
 block content
     include _mixin/post
-    +postList(page)
+    +categoryPost()
     aside.sidebar
-        include _sidebar/categories
         include _sidebar/tag
         include _sidebar/post
-        //- include _sidebar/toc
